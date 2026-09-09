@@ -1,0 +1,4 @@
+In response to: 'When an object is initiated, it is assigned a unique object id. Its type is defined at runtime and once set can never change, however its state can be changed if it is mutable. Simple put, a mutable object can be changed after it is created, and an immutable object can’t.'
+
+If a is a variable of mutable type, changing its value will be done through overwriting. If a is of immutable type, trying to change its value will either imply creating a new object of this type elsewhere in memory or will produce an error.
+Even if I understand your point of view, I’m writing this because it is always misleading to think that integers “can not be changed” while we constantly write things like k += 1 for integers.
