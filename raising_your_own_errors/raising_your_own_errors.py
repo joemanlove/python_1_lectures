@@ -1,5 +1,5 @@
 """
-Varsity Error Handling Lecture written by Joe Manlove
+Raising Your Own Errors Lecture written by Joe Manlove
 
 created 7/20/2020
 revised 10/22/25 to include this docstring, fix other docstrings, and use isinstance instead of type
